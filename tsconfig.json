@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"module": "es2015",
+		"moduleResolution": "node",
+		"lib": [
+			"dom.iterable",
+			"es2017"
+		],
+		"strict": true,
+		"target": "es5",
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"noEmitHelpers": true,
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"./node_modules/react-uwp/index.d.ts"
+	]
+}

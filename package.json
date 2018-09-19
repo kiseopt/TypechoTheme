@@ -1,0 +1,24 @@
+{
+  "name": "typetheme",
+  "version": "0.0.1",
+  "main": "app.tsx",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^16.5.1",
+    "react-uwp": "^1.2.1",
+    "rollup": "^0.49.2",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify-es": "^0.0.1",
+    "tslib": "^1.7.1",
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "start": "rollup -w -c rollup.config.js"
+  }
+}

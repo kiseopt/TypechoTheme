@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+	<script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
+	<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
+	<!-- If you write your blog in Markdown, uncomment this -->
+	<!-- <script src="https://unpkg.com/to-markdown@3.1.0/dist/to-markdown.js"></script> -->
+	<script src="/dist/app.dist.js"></script>
+	<style>
+		@import url(/dist/app.css);
+	</style>
+</head>
+
+<body>
+	<div style="display: hidden;" aria-hidden="true" id="data"></div>
+	<main id="main"></main>
+	<script>
+		window.toMarkdown = window.toMarkdown || function (str) {
+			return str
+		}
+		ReactDOM.render(
+			Typtheme.default(
+				location.href,
+				Typtheme.DataExtractHelper(document.getElementById('data'))
+			),
+			document.getElementById('main')
+		)
+	</script>
+</body>
+
+</html>

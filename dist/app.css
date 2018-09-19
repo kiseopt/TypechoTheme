@@ -1,0 +1,35 @@
+@import './global.css';
+
+.container {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 1.5em;
+}
+.container.pure {padding: 0;}
+
+@media(min-width:768px) {
+	.container {
+		max-width: 728px;
+	}
+}
+
+@media(min-width:992px) {
+	.container {
+		max-width: 952px;
+	}
+}
+
+@media(min-width:1200px) {
+	.container {
+		max-width: 1160px;
+	}
+}
+
+/** Typetheme */
+.react-uwp-markdown div {overflow-y: auto !important;}

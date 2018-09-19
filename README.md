@@ -1,2 +1,1 @@
-# TypechoTheme
-Typecho Theme（react-uwp）
+TypechoTheme React-UWP主题
