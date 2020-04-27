@@ -2,49 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/core-js@^0.9.41":
-  version "0.9.43"
-  resolved "https://registry.yarnpkg.com/@types/core-js/-/core-js-0.9.43.tgz#65d646c5e8c0cd1bdee37065799f9d3d48748253"
-
-"@types/marked@0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-0.0.28.tgz#44ba754e9fa51432583e8eb30a7c4dd249b52faa"
-
-"@types/node@^8.0.1":
-  version "8.0.27"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.27.tgz#13fbe7e92afeecebb843d7cea6c15b521e0000e1"
-
-"@types/prismjs@^1.6.2":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@types/prismjs/-/prismjs-1.6.3.tgz#308ae17050749c9f585b8e6f0ade64e8bb43c934"
-
-"@types/prop-types@^15.5.1":
-  version "15.5.1"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.1.tgz#1ecf52621299e65b855374337fb11fd2d1066fc1"
-
-"@types/react-dom@^15.5.1":
-  version "15.5.4"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.4.tgz#3f75ba86a2ce9a7d1d9e7d1ee3f186f3a9652d8f"
-  dependencies:
-    "@types/react" "*"
-
-"@types/react-transition-group@^1.1.0":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-1.1.2.tgz#a349e70788a6dc723a5f439217011ef926c27b4f"
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*":
-  version "16.0.5"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.5.tgz#d713cf67cc211dea20463d2a0b66005c22070c4b"
-
-"@types/react@^15.0.31":
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.2.tgz#2c8495aa853cb37591d0046e9afe544fb837c612"
-
-"@types/tinycolor2@^1.1.1":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@types/tinycolor2/-/tinycolor2-1.4.0.tgz#77792ebbbe8a1c9b291cb949fafeb7de121c4c6a"
+"@juggle/resize-observer@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-2.5.0.tgz#dbe3ebfa7b46b465dc85677ca23b15e854225a99"
 
 abbrev@1:
   version "1.1.0"
@@ -207,9 +167,9 @@ chokidar@^1.6.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
-clipboard@^1.5.5:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
+clipboard@^2.0.0:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
   dependencies:
     good-listener "^1.2.2"
     select "^1.1.2"
@@ -274,6 +234,10 @@ css-in-js-utils@^1.0.3:
   resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-1.0.3.tgz#9ac7e02f763cf85d94017666565ed68a5b5f3215"
   dependencies:
     hyphenate-style-name "^1.0.2"
+
+d3-ease@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-1.0.6.tgz#ebdb6da22dfac0a22222f2d4da06f66c416a0ec0"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -377,8 +341,8 @@ expand-range@^1.8.1:
     fill-range "^2.1.0"
 
 extend@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
 
 extglob@^0.3.1:
   version "0.3.2"
@@ -761,6 +725,10 @@ js-tokens@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -830,15 +798,21 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
   dependencies:
     js-tokens "^3.0.0"
 
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
+
 magic-string@^0.22.4:
   version "0.22.4"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.22.4.tgz#31039b4e40366395618c1d6cf8193c53917475ff"
   dependencies:
     vlq "^0.2.1"
 
-marked@^0.3.6:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
+marked@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.7.0.tgz#b64201f051d271b1edc10a04d1ae9b74bb8e5c0e"
 
 micromatch@^2.1.5, micromatch@^2.3.11:
   version "2.3.11"
@@ -891,6 +865,10 @@ minimist@^1.2.0, minimist@~1.2.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mobile-detect@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mobile-detect/-/mobile-detect-1.4.4.tgz#686c74e92d3cc06b09a9b3594b7b981494b137f6"
 
 ms@2.0.0:
   version "2.0.0"
@@ -1039,11 +1017,11 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prismjs@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.6.0.tgz#118d95fb7a66dba2272e343b345f5236659db365"
+prismjs@^1.17.1:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
   optionalDependencies:
-    clipboard "^1.5.5"
+    clipboard "^2.0.0"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
@@ -1061,6 +1039,14 @@ prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.8:
   dependencies:
     fbjs "^0.8.9"
     loose-envify "^1.3.1"
+
+prop-types@^15.6.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
 
 punycode@^1.4.1:
   version "1.4.1"
@@ -1085,6 +1071,19 @@ rc@^1.1.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-dom@^16.5.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
 
 react-lazyload@^2.2.7:
   version "2.2.7"
@@ -1111,31 +1110,24 @@ react-transition-group@^1.1.3:
     prop-types "^15.5.6"
     warning "^3.0.0"
 
-react-uwp@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/react-uwp/-/react-uwp-1.1.4.tgz#ee312b8ccca2bb6d4c39071b6598118ebe60003e"
+react-uwp@^1.2.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-uwp/-/react-uwp-1.3.1.tgz#e0ccc6e5f15287e259db70ed07c86f082ff38580"
   dependencies:
-    "@types/core-js" "^0.9.41"
-    "@types/marked" "0.0.28"
-    "@types/node" "^8.0.1"
-    "@types/prismjs" "^1.6.2"
-    "@types/prop-types" "^15.5.1"
-    "@types/react" "^15.0.31"
-    "@types/react-dom" "^15.5.1"
-    "@types/react-transition-group" "^1.1.0"
-    "@types/tinycolor2" "^1.1.1"
+    "@juggle/resize-observer" "^2.5.0"
+    d3-ease "^1.0.6"
     inline-style-prefixer "^3.0.5"
     keycode "^2.1.8"
-    marked "^0.3.6"
+    marked "^0.7.0"
+    mobile-detect "^1.4.4"
     murmurhash-js "^1.0.0"
-    prismjs "^1.6.0"
+    prismjs "^1.17.1"
     prop-types "^15.5.8"
     react-lazyload "^2.2.7"
     react-player "^0.20.0"
     react-transition-group "^1.1.3"
     stackblur-canvas "^1.4.0"
     tinycolor2 "^1.4.1"
-    warning "^3.0.0"
 
 react@^15.6.1:
   version "15.6.1"
@@ -1312,6 +1304,13 @@ rollup@^0.49.2:
 safe-buffer@^5.0.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 select@^1.1.2:
   version "1.1.2"
